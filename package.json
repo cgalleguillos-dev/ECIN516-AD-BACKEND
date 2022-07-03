@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.4",
+    "mongoose-paginate-v2": "^1.6.3",
+    "randomstring": "^1.2.2",
+    "save": "^2.5.0"
+  },
+  "name": "ecin516-ad-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shpm21/ECIN516-AD-BACKEND.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shpm21/ECIN516-AD-BACKEND/issues"
+  },
+  "homepage": "https://github.com/Shpm21/ECIN516-AD-BACKEND#readme",
+  "description": ""
+}
