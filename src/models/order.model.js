@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 const mongoosePaginate = require('mongoose-paginate-v2');
-const { User } = require('./user.model');
 
 const OrderSchema = mongoose.Schema({
     user: {

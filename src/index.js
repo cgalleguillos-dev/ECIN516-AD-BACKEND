@@ -26,5 +26,5 @@ app.listen(app.get('port'), () => {
 });
 
 app.use(require('./routes/product'));
-app.use(require("./routes/user"));
-// app.use("/users", require("./controllers/user/user.controller"));
+app.use(require('./routes/user'));
+app.use(require('./routes/order'))
